@@ -1,0 +1,283 @@
+* {
+	margin:0;
+	padding:;
+}
+.container{
+	width: 100%;
+	height:100%;
+
+}
+.icon {
+	width:30px;
+	padding-left:5px;
+	display:inline;
+}
+#social-media {
+	position:absolute;
+	margin-left:20%;	
+	display:inline-block;
+	margin-top:15px;
+}
+@font-face {
+	font-family:BebasNeue;
+	src:url(fonts/BebasNeue.ttf)
+}
+@font-face {
+	font-family:Montserrat;
+	src:url(fonts/Montserrat.otf)
+}
+@font-face {
+	font-family:Cong;
+	src:url(fonts/Cong.ttf)
+}
+@font-face {
+	font-family:Sunrise;
+	src:url(fonts/Sunrise.otf)
+}
+
+/*iletişim*/
+#map {
+	margin-left:20%;
+	padding-top:35px;
+	font-family:Montserrat;
+	color:#1d1819;
+	width:80%;
+	display:flex;
+
+}
+#where h3 {
+	margin-left:20%;
+	padding-top:35px;
+	display:block;
+}
+#line {
+	width:3px;
+	height:400px;
+	background-color:#1d1819;
+	margin-left:3%;
+}
+#where {
+	font-family:Montserrat;
+	color:#1d1819;
+}
+#map h3 {
+	margin-left:6%;
+}
+#map p {
+	line-height:1.5;
+	margin-top:20px;
+	margin-left:6%;
+}
+#map form {
+	margin-top:20px;
+	margin-left:6%;
+}
+#map h4 {
+	margin-top:30px;
+	margin-left:6%;
+}
+#frame{
+	margin-left:30%;
+	padding-top:40px;
+	display:flex;
+	
+}
+#frame iframe {
+	margin-left:20px;
+} 
+#iletisim1 {
+	padding-top:100px;
+}
+
+center {
+	font-family:Montserrat;
+	padding-top:5px;
+}
+#girisekran  {
+	margin-left:48%;
+	padding-top:50px;
+	position:absolute;
+	font-family:Montserrat;
+	font-size:18px;
+}
+#girisekran input {
+	height:18px;
+}
+#cikis {
+	padding-top:100px;
+	font-family:Montserrat;
+	font-size:18px;	
+	text-align:center;
+	margin-left:15%;
+}
+#cikis a {
+	text-decoration:none;
+	color:black;
+}
+#cikis a:hover {
+	color:red;
+	transition:.5s ease;
+	
+}
+#cikis p {
+}
+.loginn {
+	width:300px;
+	height:500px;
+	background-color:white;
+	border-radius:5px;
+	box-shadow:5px 5px 5px grey;
+	
+}
+.loginn input[type=submit]{
+	padding-top:8px;
+	padding-bottom:20px;
+	padding-left:20px;
+	padding-right:20px;
+	margin-left:50px;
+	font-family:Montserrat;
+	background-color:white;
+	color:black;
+	border-radius:7px;
+}
+.loginn input[type=submit]:hover {
+	color:white;
+	background-color:black;
+	transition:.5s ease;
+	
+}
+label p{
+	margin-left:22px;
+	position:absolute;
+	padding-top:20px;
+	font-size:170px;
+}
+
+#project-list {
+	margin-bottom:25px;
+	margin-left:22%;
+	padding-top:50px;
+	font-family:Montserrat;
+	font-size:14px;
+	display:block;
+		
+}
+#project-list ul {
+	list-style-type:none;
+		
+}
+#project-list ul li {
+	display:inline;
+		
+}
+#project-list ul a:link  {
+	text-decoration:none;
+}
+.list-element {
+	
+	width:260px;
+	height:300px;
+	background-color:white;
+	opacity:1;
+	color:#ccc;
+	transition:.5s ease;
+	margin: 7px;
+	overflow:hidden;
+	display:inline-block;
+	border-radius:5px;
+	
+}
+
+ul .list-element img {
+	width:220px;
+	border-radius:5px;
+	height:200px;
+	object-fit:cover;
+	margin-left:auto;
+	margin-right:auto;
+	padding-top:5%;
+	border-radius:7px;
+	display:block;
+	
+}
+
+
+.list-element:hover {
+	opacity:1;
+}
+.list-element p {
+	margin-top:5px;
+	font-size:13px;
+	color:black;
+	text-align:center;
+}
+#blank {
+	width:87%;
+	height:80px;
+}
+.ptext {
+	margin-left:auto;
+	margin-top:15px;
+	display:block;
+	color:black;
+	text-align:center;
+}
+.ihover {
+	opacity:0;
+	color:white;
+	position:absolute;
+	width:260px;
+	height:300px;
+	background-color:rgba(102,105,112,.6);
+	border-radius:5px;
+	
+}
+.ihover p {
+	margin-left:auto;
+	margin-top:46%;
+	display:block;
+	font-size:18px;
+}
+.ihover:hover {
+	opacity:1;
+	transition:.5s ease;
+	
+}
+
+#read {
+	margin-left:auto;
+	margin-right:auto;
+	padding-top:120px;
+}
+#bilgiler {
+	display:flex;
+}
+#bilgiler ul li {
+	list-style-type:none;
+}
+#bilgiler ul li p {
+	font-family:Montserrat;
+	font-size:18px;
+}
+#profilresim {
+	width:40%;
+	height:400px;
+	box-shadow: 5px 5px 7px grey;
+	margin-top:15px;
+	border-radius:10px;
+}
+#profilresim img {
+	width:100%;
+	height:100%;
+	display:block;
+	object-fit:contain;
+	border-radius:10px;	
+}
+h2 {
+	font-family:Montserrat;
+}
+#menu1 {
+	margin-left:30%;
+	width:50%;
+	height:40px;	
+}
